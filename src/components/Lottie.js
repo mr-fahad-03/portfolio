@@ -1,16 +1,14 @@
-import React from 'react';
+import dynamic from 'next/dynamic';
 import PropTypes from 'prop-types';
-import ReactLottie from "lottie-react";
 
-// ----------------------------------------------------------------------
+// Dynamically import Lottie with SSR disabled
+const ReactLottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 export default function Lottie({ animationDataFile }) {
   return (
-      <ReactLottie animationData={animationDataFile} loop={true}  />
+    <ReactLottie animationData={animationDataFile} loop={true} />
   );
 }
-
-// ----------------------------------------------------------------------
 
 Lottie.propTypes = {
   animationDataFile: PropTypes.object,

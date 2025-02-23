@@ -18,12 +18,6 @@ export const FRONTEND_SKILLS = [
     iconClasses: 'text-2xl',
   },
   {
-    label: 'Typescript',
-    proficiency: '80%',
-    icon: 'logos:typescript-icon',
-    iconClasses: 'text-2xl',
-  },
-  {
     label: 'React.js',
     proficiency: '80%',
     icon: 'vscode-icons:file-type-reactjs',
@@ -35,12 +29,7 @@ export const FRONTEND_SKILLS = [
     icon: 'cib:next-js',
     iconClasses: 'text-3xl',
   },
-  {
-    label: 'Gatsby',
-    proficiency: '90%',
-    icon: 'logos:gatsby',
-    iconClasses: 'text-3xl',
-  },
+ 
   {
     label: 'Material UI (mui)',
     proficiency: '90%',
@@ -53,12 +42,7 @@ export const FRONTEND_SKILLS = [
     icon: 'logos:tailwindcss-icon',
     iconClasses: 'text-2xl',
   },
-  {
-    label: 'SCSS',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-scss2',
-    iconClasses: 'text-3xl',
-  },
+ 
   {
     label: 'Bootstrap',
     proficiency: '90%',
@@ -68,8 +52,8 @@ export const FRONTEND_SKILLS = [
   {
     label: 'Styled Components',
     proficiency: '90%',
-    icon: 'simple-icons:styled-components',
-    iconClasses: 'text-4xl',
+    icon: 'vscode-icons:file-type-styled',
+    iconClasses: 'text-2xl',
   },
   {
     label: 'Redux',
@@ -81,24 +65,6 @@ export const FRONTEND_SKILLS = [
     label: 'React Router',
     proficiency: '90%',
     icon: 'logos:react-router',
-    iconClasses: 'text-xl',
-  },
-  {
-    label: 'React Query',
-    proficiency: '90%',
-    icon: 'logos:react-query-icon',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'React Hook Form',
-    proficiency: '90%',
-    icon: 'fluent:form-20-regular',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Lodash',
-    proficiency: '90%',
-    icon: 'logos:lodash',
     iconClasses: 'text-xl',
   },
 ];
@@ -123,30 +89,6 @@ export const BACKEND_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
-    label: 'Graphql',
-    proficiency: '90%',
-    icon: 'logos:graphql',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Prisma',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-light-prisma',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Sequelize',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-sequelize',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'PostgreSQL',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-pgsql',
-    iconClasses: 'text-3xl',
-  },
-  {
     label: 'MySQL',
     proficiency: '90%',
     icon: 'logos:mysql',
@@ -158,36 +100,15 @@ export const BACKEND_SKILLS = [
     icon: 'vscode-icons:file-type-mongo',
     iconClasses: 'text-3xl',
   },
-  {
-    label: 'AWS',
-    proficiency: '80%',
-    icon: 'logos:aws',
-    iconClasses: 'text-xl',
-  },
+ 
   {
     label: 'Github',
     proficiency: '80%',
     icon: 'akar-icons:github-fill',
     iconClasses: 'text-3xl',
   },
-  {
-    label: 'Bitbucket',
-    proficiency: '80%',
-    icon: 'logos:bitbucket',
-    iconClasses: 'text-2xl',
-  },
-  {
-    label: 'Docker',
-    proficiency: '80%',
-    icon: 'logos:docker-icon',
-    iconClasses: 'text-2xl',
-  },
-  {
-    label: 'Heroku',
-    proficiency: '80%',
-    icon: 'logos:heroku-icon',
-    iconClasses: 'text-2xl',
-  },
+ 
+ 
   {
     label: 'Vercel',
     proficiency: '80%',

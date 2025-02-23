@@ -87,7 +87,7 @@ export default function Contact() {
                   name="message"
                   required
                   className="h-32 w-full resize-none rounded border border-primary-700/70 bg-primary-100/20 py-1 px-3 text-base leading-8 outline-none transition-colors duration-200 ease-in-out focus:ring-1 focus:ring-primary-700/70 dark:border-primary-300/50 dark:bg-primary-300/10 dark:focus:ring-primary-300/50"
-                  defaultValue={'Hello Dhaval,'}
+                  defaultValue={'Hello Mr Fahad,'}
                 />
               </div>
               <div className="flex w-full justify-end p-2">
@@ -108,22 +108,34 @@ export default function Contact() {
                 </button>
               </div>
               <div className="mt-4 w-full border-t border-neutral-700/50 p-2 pt-6 text-center dark:border-neutral-300/50">
+
+              <p className="my-5 leading-normal">
+                  <Iconify
+                    classes="inline-block text-lg mr-1 text-primary-700 dark:text-primary-300"
+                    icon="mdi:phone"
+                  />
+                  +92 342 0072 298
+                </p>
+
                 <a
-                  href={`mailto:${contactEmail}?subject=Inquiry&body=Hello Dhaval`}
+                  href={`mailto:${contactEmail}?subject=Inquiry&body=Hello Mr Fahad`}
                   className="inline-flex items-center space-x-2 hover:text-primary-700 dark:hover:text-primary-300"
                 >
                   <Iconify classes="text-lg text-primary-700 dark:text-primary-300" icon="clarity:email-solid" />
                   <span>{contactEmail}</span>
                 </a>
+
+
                 <p className="my-5 leading-normal">
                   <Iconify
                     classes="inline-block text-lg mr-1 text-primary-700 dark:text-primary-300"
                     icon="bytesize:location"
                   />
-                  Ahmedabad
-                  <br />
-                  Gujarat, India
+                  New Plot Gojra
+                  Punjab, Pakistan
                 </p>
+
+             
                 <div className="flex w-full justify-center">
                   <SocialLinks />
                 </div>

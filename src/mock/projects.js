@@ -28,71 +28,70 @@ const getSkillByLabel = (skills, techLabel) => skills.find(({ label }) => label 
 
 export const PROJECTS = [
   {
-    imgSrc: 'https://images2.imgbox.com/79/5f/S3hu6kJs_o.jpg',
-    title: 'Flipkart Clone - E-Commerce Project',
-    techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Material UI (mui)'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Redux'),
-      getSkillByLabel(BACKEND_SKILLS, 'Node.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'Mongodb'),
-    ],
-    description:
-      'Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart. It is build with React Js, Node Js.',
-    repoLink: 'https://github.com/dhavalCode/flipkart-clone',
-    sourceLink: 'https://flipkart-web.vercel.app/',
-    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
-  },
-  {
-    imgSrc: 'https://images2.imgbox.com/b5/bb/6f5g9QBE_o.png',
-    title: 'Developer Portfolio',
-    techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Tailwind CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
-    ],
-    description:
-      'Simple and classic modern portfolio for who wants to present himself as a software developer. Portfolio build with highly customizable using Tailwind CSS, Next Js.',
-    repoLink: 'https://github.com/dhavalCode/dev-portfolio',
-    sourceLink: 'https://dhavalcode.com/',
-    category: [PROJECT_CATEGORY.OPEN_SOURCE],
-  },
-  {
-    imgSrc: 'https://images2.imgbox.com/dd/a3/Fcx8cjEr_o.jpg',
-    title: 'Kitchen Store  - E-Commerce',
+    imgSrc: 'https://www.perfectreplicawatch.is/wp-content/uploads/2020/05/www.perfectreplica.to_-1024x686.jpg',
+    title: 'Watch Store - E - Commerce Project',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
       getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
       getSkillByLabel(FRONTEND_SKILLS, 'Javascript'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Bootstrap'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Material UI (mui)'),
+     ],
+    description:
+      'Watch Store is done with top-notch features for the entrepreneur startups like Daraz. It is build with React Js, Node Js.',
+    repoLink: 'https://github.com/mr-fahad-03/watch-store',
+    sourceLink: 'https://timeless-treasure.vercel.app/',
+    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
+  },
+  {
+    imgSrc: 'https://i0.wp.com/blog.favoree.io/wp-content/uploads/2023/10/image-19.png?resize=1024%2C515&ssl=1',
+    title: 'Movie Rating Website',
+    techIcons: [
+      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
+      getSkillByLabel(BACKEND_SKILLS, 'REST Api'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Tailwind CSS'),
+      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Redux'),
+      getSkillByLabel(FRONTEND_SKILLS, 'React Router'),
+    ],
+    description:
+      'Simple and classic Movie Ratings for who wants to present himself as a software developer. Movie Rating Website build with highly customizable using Tailwind CSS, Next Js.',
+    repoLink: 'https://github.com/mr-fahad-03/',
+    sourceLink: 'https://filmfeelz.netlify.app/',
+    category: [PROJECT_CATEGORY.OPEN_SOURCE],
+  },
+  {
+    imgSrc: 'https://www.mikeroysoft.com/post/download-fusion-ws/dl-vmw-fusion-ws-04.png',
+    title: 'Broadcom Inc - E - Commerce',
+    techIcons: [
+      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
+      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Javascript'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
       {
         label: 'Java',
         icon: 'logos:java',
       },
-      getSkillByLabel(BACKEND_SKILLS, 'MySQL'),
+      getSkillByLabel(BACKEND_SKILLS, 'Github'),
     ],
     description:
-      'The e-commerce to buy kitchen related items. College final year project base on Servlets and JSP (Java)',
-    repoLink: 'https://github.com/dhavalcode/ecommerce-java-project',
-    sourceLink: '',
+      'The e-commerce to buy Broadcom related items. College final year project base on Servlets and JSP (Java)',
+    repoLink: 'https://github.com/mr-fahad-03/broadcom-nextjs',
+    sourceLink: 'https://broadcom-inc.vercel.app/',
     category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
   },
 
   {
-    imgSrc: 'https://images2.imgbox.com/9d/d0/zdDVFtFN_o.png',
-    title: 'Netflix Clone - TMDB API Project',
+    imgSrc: 'https://repository-images.githubusercontent.com/481788283/f68c84a1-9c9d-4fd6-baed-c5e68eb3ac30',
+    title: 'Movie Clone - TMDB API Project',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
       getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
       getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
       getSkillByLabel(BACKEND_SKILLS, 'REST Api'),
     ],
-    description: 'Netflix clone using react Js. Proving movies details using TMDB API.',
-    repoLink: 'https://github.com/dhavalcode/netflix-clone',
-    sourceLink: 'https://netflix-clone-by-dhaval.web.app/',
+    description: 'Movie clone using react Js. Proving movies details using TMDB API.',
+    repoLink: 'https://github.com/mr-fahad-03/notfound',
+    sourceLink: 'https://codewithsadee.github.io/filmlane/',
     category: [PROJECT_CATEGORY.OPEN_SOURCE],
   },
 ];

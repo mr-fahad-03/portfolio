@@ -25,7 +25,7 @@ export default function Header({ darkModeEnabled, toggleMode }) {
             className="text-md cursor-pointer font-lato font-semibold tracking-widest md:text-2xl"
             onClick={jumpToTop}
           >
-            &lt;DhavalPatel /&gt;
+            &lt;Mr Fahad /&gt;
           </h3>
         </motion.div>
         <motion.div

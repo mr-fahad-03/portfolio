@@ -37,7 +37,7 @@ export default function HomeHero() {
           <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
         </motion.div>
         <h1 className="z-50 font-lato text-2xl font-bold sm:text-4xl md:font-semibold">
-          Hi, Im{' '}
+          Hello, <br/> This is Muhammad Fahad, I'm a <br/> Profession  {' '}
           <span className="text-primary-700 dark:text-primary-300">
             <Typewriter
               style={{ color: 'inherit' }}
