@@ -15,7 +15,7 @@
  - Highly customizable portfolio. You can easily customize it as you want.     
 
 ## Live Demo 🚀
-[don't click here](https://dhavalcode.com)
+[don't click here]((http://mr-fahad.vercel.app/))
 
 ## Technologies Used 🖥️
 
@@ -146,14 +146,8 @@ Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 
 
 ## For the Future
-If you want to add more, Please don't hesitate to open a [pull request](https://github.com/dhavalCode/dev-portfolio/pulls).
+If you want to add more, Please don't hesitate to open a [pull request](https://github.com/mr-fahad-03/).
 
-
-##  👋 Get in Touch
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/dhavalcode?style=social)](https://twitter.com/dhavalCode)
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhavalcode) 
 
 
 
